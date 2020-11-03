@@ -82,6 +82,7 @@
           - perl-Date-Manip
           - systemd-devel
           - python2-setuptools
+          - dwarves
           - crash
           - tmux
     - systemd:
