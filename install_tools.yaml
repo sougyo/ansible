@@ -4,6 +4,7 @@
   - yum:
       state: latest
       name:
+      - ansible
       - vim
       - gdb
       - lsof
@@ -43,9 +44,7 @@
       content: |
         set noswapfile
         set number
-        set expandtab
-        set tabstop=2
-        set shiftwidth=2
+        set tabstop=4
         set paste
   - file:
       path: /root/.vim/plugin
