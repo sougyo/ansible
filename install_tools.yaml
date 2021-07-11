@@ -25,6 +25,8 @@
       - make
       - ruby
       - ruby-irb
+      - golang
+      - rust
       - git
       - ctags
       - global
@@ -34,7 +36,6 @@
       - telnet
       - psmisc
       - man-pages
-      - rust
       - autoconf
       - automake
       - crash
